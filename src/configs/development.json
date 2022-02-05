@@ -1,0 +1,15 @@
+{
+    "env": "development",
+    "dbConfig": {
+        "uri": "mongodb://localhost:27017/kayak-app"
+    },
+    "secretKey": "secretKey",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": "*",
+        "credentials": true
+    }
+}
